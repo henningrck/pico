@@ -1,6 +1,7 @@
 const sass = require("sass");
 const path = require("path");
 const fs = require("fs");
+const readline = require("readline");
 
 const themeColors = [
   "amber",
@@ -134,8 +135,8 @@ themeColors.forEach((themeColor, colorIndex) => {
     fs.writeFileSync(path.join(cssFoldername, `${version.name}.${themeColor}.css`), result.css);
 
     // Clear the console
-    process.stdout.clearLine();
-    process.stdout.cursorTo(0);
+    readline.clearLine();
+    readline.cursorTo(0);
   });
 });
 
