@@ -19,4 +19,4 @@ We recommend that you first [suggest your feature idea in our discussion forums]
 
 [`v1-dev`](https://github.com/picocss/pico/tree/v1-dev) branch is open to pull requests on `v1`.
 
-**Do not edit [`/css`](https://github.com/picocss/pico/tree/master/css) files directly.** Edit the source files in [`/scss`](https://github.com/picocss/pico/tree/master/scss), then recompile the [`/css`](https://github.com/picocss/pico/tree/master/css) files with `yarn build`.
+**Do not edit [`/css`](https://github.com/picocss/pico/tree/master/css) files directly.** Edit the source files in [`/scss`](https://github.com/picocss/pico/tree/master/scss), then recompile the [`/css`](https://github.com/picocss/pico/tree/master/css) files with `pnpm build`.

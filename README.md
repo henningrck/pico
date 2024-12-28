@@ -78,6 +78,12 @@ Or
 yarn add @picocss/pico
 ```
 
+Or
+
+```shell
+pnpm add @picocss/pico
+```
+
 Then, import Pico into your SCSS file with [@use](https://sass-lang.com/documentation/at-rules/use):
 
 ```SCSS
